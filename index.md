@@ -6,7 +6,7 @@ title: Missouri S&T IA-GAANN
 Program Information
 -------------------
 
-{:refdef: .c1 #id .c2 title="title"}
+{:refdef: .dl-horizontal }
 Research Areas
 : - Critical Infrastructure Protection
   - Network and System Security and Reliability
@@ -37,6 +37,7 @@ Benefits
     - Research grant-writing training
 
   - Community outreach and management opportunities
+{: refdef .dl-horizontal }
 
 *Women and students from under-represented minority groups are
 especially encouraged to apply.*
