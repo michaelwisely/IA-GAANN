@@ -2,8 +2,8 @@
 title: Missouri S&T IA-GANN
 email: tjm6f4@mst.edu
 description: ""
-baseurl: ""
-url: "http://web.mst.edu/~ia-gannn"
+baseurl: "/~ia-gaann"
+url: "http://web.mst.edu/~ia-gaann"
 
 # Build settings
 markdown: kramdown
