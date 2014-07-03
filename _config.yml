@@ -1,0 +1,10 @@
+# Site settings
+title: Missouri S&T IA-GANN
+email: tjm6f4@mst.edu
+description: ""
+baseurl: ""
+url: "http://web.mst.edu/~ia-gannn"
+
+# Build settings
+markdown: kramdown
+permalink: pretty
