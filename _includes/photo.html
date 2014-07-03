@@ -1,0 +1,7 @@
+<div class="media">
+  <img class="media-object pull-left" width="120" height="120" src="{{ person.photo }}" alt="No Photo">
+  <div class="media-body">
+    <h3 class="media-heading">{{ person.name }} {% if person.role %}<small>{{ person.role }}</small>{% endif %}</h3>
+    <a href="{{ person.website }}" target="_blank">Link to website</a>
+  </div>
+</div>

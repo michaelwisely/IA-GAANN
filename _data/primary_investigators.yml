@@ -1,0 +1,14 @@
+- name: Dr. Ali Hurson
+  role: Director
+  website: https://sites.google.com/a/mst.edu/hurson/
+  photo: /img/Hurson.jpg
+
+- name: Dr. Bruce McMillin
+  role: Co-Director
+  website: http://web.mst.edu/~ff/
+  photo: /img/McMillin.jpg
+
+- name: Dr. Sahra Sedigh
+  role: Co-Director
+  website: http://web.mst.edu/~sedighs/
+  photo: /img/Sedigh.jpg
