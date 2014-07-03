@@ -62,14 +62,14 @@ improvement of urban infrastructure" are two of the fourteen Grand
 Challenges for Engineering identified by the National Academy of
 Engineering. Critical Infrastructure Protection (CIP), which spans these
 two challenges, is vital to industry, government, and society as a
-whole. President Obama’s Strategy for American Innovation further
+whole. President Obama's Strategy for American Innovation further
 underscores this urgency of CIP by calling for investments in "Building
 a leading physical infrastructure" and "Developing an advanced
 information technology ecosystem," as building blocks for American
 Innovation.
 
 Our primary objective for this GAANN program is to increase the number
-of US citizens, including those from underrepresented groups, who will
+of US citizens, including those from under-represented groups, who will
 pursue teaching and research careers in information and system assurance
 of critical infrastructure, an area of urgent national need. This area
 is also the thrust of Missouri S&T's certification by the National
@@ -79,7 +79,7 @@ effort. The GAANN program will establish a commonality among critical
 infrastructures for assurance purposes, using commodity flow as a
 fundamental concept. Conceptually, both information and actual physical
 material flow are commodities; flow provides an overarching rubric, so
-that information assurance for infrastructure systems can be analyzed in
+that information assurance for infrastructure systems can be analysed in
 a consistent, structured, and unified way - a true systems engineering
 approach.
 
