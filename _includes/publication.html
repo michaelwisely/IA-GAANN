@@ -1,0 +1,13 @@
+<div class="media">
+  <div class="media-body">
+    <h4 class="media-heading">{{ pub.citation }} </h4>
+    <p>
+        Year: {{ pub.year }} <br />
+        Status: {{ pub.status }} 
+        {% if pub.link %}
+            <br />
+            <a href="{{ pub.link }}" target="_blank">Link</a>
+        {% endif %}
+    </p>
+  </div>
+</div>

@@ -37,8 +37,10 @@ title: Research
     <hr />
 
     <h2 id="Publications">Publications</h2>
-    <p>
-      Forthcoming
-    </p>
+    
+    {% for pub in site.data.publications %}
+      {% include publication.html %}
+    {% endfor %}
+    
   </div>
 </div>
