@@ -1,6 +1,7 @@
 # Deployment Script to delete current contents of IA-GAANN directory and replace with _Site
-# NOTE: Make sure you have net-sftp installed.  If not, run "gem install net-sftp"
-require 'io/console'
+# NOTE: Make sure you have net-sftp and highline gems installed.  
+# If not, run "gem install net-sftp" or "gem install highline"
+require 'highline/import'
 require 'net/sftp'
 
 puts "============ IA-GAANN SFTP Deployment Script ============"
@@ -10,14 +11,9 @@ host = "minersftp.mst.edu"
 local_directory = "_site/"
 remote_directory = "/USERWEB/ia-gaann"
 
-# Get connection credentials
-print "Username: "
-username = gets.chomp
-print "Please enter your password: "
-password = gets.chomp
-# The code below will hide the password but it requires three return presses to move past - wierd.
-# password = STDIN.raw(&:gets).chomp
-# gets
+# User input is retrieved using the highline gem
+username = ask("Please enter your username: ")
+password = ask("Enter password: ") { |q| q.echo = false }
 
 # Simple method to print with an indention level specified
 def level_print(message, count)
