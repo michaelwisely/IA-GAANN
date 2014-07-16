@@ -48,14 +48,18 @@ def delete_directory_contents(directory, sftp, level)
 end
 
 print "Initializing connection to: " + host + " ... "
-Net::SFTP.start(host, username, :password => password) do |sftp|
-  puts "Connected!"
-  
-  # Delete existing files
-  delete_directory_contents(remote_directory, sftp, 0)
-  
-  # Copy _Site contents to remote server
-  print "Uploading " + local_directory + " to " + remote_directory + " ... "
-  sftp.upload!(local_directory, remote_directory)
-  puts "Complete!"
+begin
+  Net::SFTP.start(host, username, :password => password) do |sftp|
+    puts "Connected!"
+    
+    # Delete existing files
+    delete_directory_contents(remote_directory, sftp, 0)
+    
+    # Copy _Site contents to remote server
+    print "Uploading " + local_directory + " to " + remote_directory + " ... "
+    sftp.upload!(local_directory, remote_directory)
+    puts "Complete!"
+  end
+rescue Net::SSH::AuthenticationFailed
+  puts "Authentication Failed!"
 end
