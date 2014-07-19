@@ -1,49 +1,3 @@
----
-layout: base
-title: Missouri S&T IA-GAANN
----
-
-Program Information
--------------------
-
-{:refdef: .dl-horizontal }
-Research Areas
-: - Critical Infrastructure Protection
-  - Network and System Security and Reliability
-  - Cyber-physical Systems
-  - Pervasive Systems
-
-Eligibility
-: - US Citizen or Permanent Resident
-  - Commitment to a career in teaching and/or research
-  - B.S. degree in computer engineering, computer science,
-    electrical engineering or closely related areas
-  - Outstanding academic record, including GPA of 3.5 or higher
-
-Benefits
-: - Financial support for up to three years, including:
-    - Monthly stipend (up to \$30K per year)
-    - Coverage of all educational expenses, including:
-      - Tuition and fees
-      - Cost of textbooks and other materials
-      - Computer hardware and software
-      - Travel expenditures and registration fees for participation in
-      conferences
-
-  - Up to two years of follow-on funding through research/teaching
-    assistantships
-  - Professional development opportunities, such as:
-    - Teaching portfolio development
-    - Research grant-writing training
-
-  - Community outreach and management opportunities
-{: refdef .dl-horizontal }
-
-*Women and students from under-represented minority groups are
-especially encouraged to apply.*
-
-* * * * *
-
 About IA-GAANN
 --------------
 
@@ -66,7 +20,7 @@ whole. President Obama's Strategy for American Innovation further
 underscores this urgency of CIP by calling for investments in "Building
 a leading physical infrastructure" and "Developing an advanced
 information technology ecosystem," as building blocks for American
-Innovation.
+Innovation.<br/>
 
 Our primary objective for this GAANN program is to increase the number
 of US citizens, including those from under-represented groups, who will
@@ -81,7 +35,7 @@ fundamental concept. Conceptually, both information and actual physical
 material flow are commodities; flow provides an overarching rubric, so
 that information assurance for infrastructure systems can be analysed in
 a consistent, structured, and unified way - a true systems engineering
-approach.
+approach.<br/>
 
 This doctoral program brings together a truly interdisciplinary team of
 faculty, where diverse talents from the computing area are complemented

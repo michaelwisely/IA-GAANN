@@ -1,0 +1,45 @@
+---
+layout: base
+title: Information
+---
+
+<h2>Considering Applying?</h2>
+<div class="row">
+  <div class="col-sm-6">
+    <div class="thumbnail">
+        <div class="caption">
+          {% markdown info-areas.md %}
+        </div>
+    </div>
+    <div class="thumbnail">
+        <div class="caption">
+          {% markdown info-eligibility.md %}
+        </div>
+    </div>
+  </div>
+  <div class="col-sm-6">
+    <div class="thumbnail">
+        <div class="caption">
+          {% markdown info-benefits.md %}
+        </div>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+      <div class="alert alert-dismissable alert-success">
+        <button type="button" class="close" data-dismiss="alert">x</button>
+        <h4>
+          Applications are still being accepted!
+
+            <a href="{{ site.baseurl }}/docs/GAANN Application.pdf" class="alert-link">Apply Now!</a>
+
+        </h4>
+        <em>
+          Women and students from under-represented minority groups are especially encouraged to apply.
+        </em>
+      </div>
+  </div>
+</div>
+
+    {% markdown about.md %}

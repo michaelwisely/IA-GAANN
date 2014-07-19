@@ -1,7 +1,20 @@
 <div class="media">
-  <img class="media-object pull-left" width="120" height="120" src="{{ site.baseurl }}{{ person.photo }}" alt="No Photo">
+  <img class="media-object pull-left img-rounded" width="120" height="120" src="{{ site.baseurl }}{{ person.photo }}" alt="No Photo">
   <div class="media-body">
-    <h3 class="media-heading">{{ person.name }} {% if person.role %}<small>{{ person.role }}</small>{% endif %}</h3>
-    <a href="{{ person.website }}" target="_blank">Link to website</a>
+    <h3 class="media-heading">
+      {{ person.name }}
+      {% if person.role %}
+        <small>{{ person.role }}</small>
+      {% endif %}
+    </h3>
+    <p>
+        {% if person.advisors %}
+          <strong>Advisor(s):</strong> {{ person.advisors }} <br/>
+        {% endif %}
+        {% if person.website %}
+          <a href="{{ person.website }}" target="_blank">Link to website</a>
+        {% endif %}
+    </p>
+
   </div>
 </div>

@@ -10,8 +10,8 @@ title: Research
 </style>
 
 <div class="row">
-  <div class="col-lg-3">
-    <div class="list-group hidden-xs hidden-sm hidden-md" data-spy="affix" data-offset-top="185" style="width:250px;">
+  <div class="col-md-3">
+    <div class="list-group hidden-xs hidden-sm" data-spy="affix" data-offset-top="185" style="width:250px;">
       <p class="lead"><h1>Research</h1></p>
       <a href="#PIs" class="list-group-item">Primary Investigators</a>
       <a href="#Fellows" class="list-group-item">Fellows</a>
@@ -19,28 +19,29 @@ title: Research
     </div>
   </div>
 
-  <div class="col-lg-9 col-xs-12 col-sm-12">
+  <div class="col-sm-9 col-xs-12">
     <h2 id="PIs">Primary Investigators</h2>
 
-    {% for person in site.data.primary_investigators %}
-      {% include photo.html %}
-    {% endfor %}
-
+    <div class="well">
+      {% for person in site.data.primary_investigators %}
+        {% include photo.html %}
+      {% endfor %}
+    </div>
     <hr />
 
     <h2 id="Fellows">Fellows</h2>
-
-    {% for person in site.data.fellows %}
-      {% include photo.html %}
-    {% endfor %}
-
+    <div class="well">
+      {% for person in site.data.fellows %}
+        {% include photo.html %}
+      {% endfor %}
+    </div>
     <hr />
 
     <h2 id="Publications">Publications</h2>
-    
-    {% for pub in site.data.publications %}
-      {% include publication.html %}
-    {% endfor %}
-    
+    <div class="well">
+      {% for pub in site.data.publications %}
+        {% include publication.html %}
+      {% endfor %}
+    </div>
   </div>
 </div>

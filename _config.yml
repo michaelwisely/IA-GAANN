@@ -2,8 +2,8 @@
 title: Missouri S&T IA-GANN
 email: tjm6f4@mst.edu
 description: ""
-baseurl: "/~ia-gaann"
-url: "http://web.mst.edu/~ia-gaann"
+#baseurl: "/~ia-gaann"
+#url: "http://web.mst.edu/~ia-gaann"
 encoding: ISO-8859-1
 
 # Build settings
