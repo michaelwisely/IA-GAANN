@@ -1,8 +1,7 @@
-- citation: Dr. Sedigh, Nathan Jarus, Jing Lin, Ayman Faza, Pratik Maheshwari, "Survey on Cyber-Physical Systems"
+- citation: Murtadha N. Albasrawi, Kamlesh A. Joshi, Nathan Jarus, Dr. Sahra Sedigh, "Analysis of Reliability and Resilience for Smart Grids," In Proc. of the 38th Annual International Computers, Software & Applications Conference (COMPSAC '14)
   year: 2014
-  status: In Preparation
-  link: 
-  
+  status: Published
+
 - citation: M. Woodard and S. Sedigh, "Modeling of Autonomous Vehicle Operation in Intelligent Transportation Systems," In Proc. of the 5th Int'l Workshop on Software Engineering for Resilient Systems (SERENE '13), Oct. 2013, Kiev, Ukraine, pp. 133-140.
   year: 2013
   status: Published
@@ -12,4 +11,14 @@
   year: 2013
   status: Published
 
-  
+- citation: Sabatini, Antonio, Nathan Jarus, Pratik Maheshwari, and Sahra Sedigh. "Software instrumentation for failure analysis of USB host controllers." In Instrumentation and Measurement Technology Conference (I2MTC), 2013 IEEE International, pp. 1109-1114. IEEE, 2013.
+  year: 2013
+  status: published
+
+- citation: Dr. Sedigh, Nathan Jarus, Jing Lin, Ayman Faza, Pratik Maheshwari, "Survey on Cyber-Physical Systems"
+  year: 2014
+  status: In Preparation
+
+- citation: Antonio Sabatini, Nathan Jarus, Pratik Maheswari, Dr. Sahra Sedigh, "Software instrumentation for IEEE Transactions"
+  year: 2014
+  status: In preparation
